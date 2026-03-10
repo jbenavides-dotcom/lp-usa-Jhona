@@ -32,8 +32,10 @@ export function Process() {
                 <div className="relative h-56 overflow-hidden">
                   <img
                     src={`${BASE}${step.image.replace(/^\//, '')}`}
-                    alt={step.title}
+                    alt={`${step.title} — Step ${step.step} of the coffee production process at La Palma & El Tucán farm, Zipacón Colombia`}
                     loading="lazy"
+                    width="400"
+                    height="224"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                   {/* Step number badge */}
@@ -57,8 +59,10 @@ export function Process() {
           <div className="mt-12 grid lg:grid-cols-2 gap-8 items-center">
             <img
               src={`${BASE}images/proceso/proceso_bio_washed.jpg`}
-              alt="Bio-Washed coffee processing at La Palma & El Tucán"
+              alt="Bio-Washed coffee processing at La Palma & El Tucán farm in Zipacón, Colombia"
               loading="lazy"
+              width="600"
+              height="256"
               className="rounded-xl w-full h-64 object-cover"
             />
             <div>

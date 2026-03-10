@@ -7,6 +7,7 @@ import { ProducerAdvantage } from './components/sections/ProducerAdvantage';
 import { Process } from './components/sections/Process';
 import { Story } from './components/sections/Story';
 import { Sustainability } from './components/sections/Sustainability';
+import { Faq } from './components/sections/Faq';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Process />
         <Story />
         <Sustainability />
+        <Faq />
       </main>
 
       <Footer />

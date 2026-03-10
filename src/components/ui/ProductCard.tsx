@@ -25,6 +25,8 @@ export function ProductCard({ product }: ProductCardProps) {
         <img
           src={`${BASE}${product.image}`}
           alt={`${product.name} — ${product.variety} ${product.process} Colombian Specialty Coffee by La Palma & El Tucán`}
+          width="400"
+          height="384"
           className="h-full w-full object-cover scale-110 transition-transform duration-500 group-hover:scale-125"
           loading="lazy"
         />

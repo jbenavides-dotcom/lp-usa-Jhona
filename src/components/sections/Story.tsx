@@ -22,6 +22,8 @@ export function Story() {
                 src={`${BASE}images/equipo/fundadores_felipe_elisa.jpg`}
                 alt="Felipe Sardi and Elisa María Madriñán, founders of La Palma & El Tucán"
                 loading="lazy"
+                width="600"
+                height="400"
                 className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-500"
               />
 
@@ -94,20 +96,26 @@ export function Story() {
               <div className="grid grid-cols-3 gap-3 mt-8">
                 <img
                   src={`${BASE}images/equipo/equipo_elisa_trabajadoras.jpg`}
-                  alt="Team at La Palma & El Tucán"
+                  alt="Elisa Madriñán with coffee workers sorting beans at La Palma & El Tucán farm in Zipacón, Colombia"
                   loading="lazy"
+                  width="200"
+                  height="128"
                   className="rounded-lg h-32 w-full object-cover"
                 />
                 <img
                   src={`${BASE}images/equipo/equipo_trabajador_cafe.jpg`}
-                  alt="Coffee worker at the farm"
+                  alt="Farm worker hand-picking ripe coffee cherries during harvest at La Palma & El Tucán"
                   loading="lazy"
+                  width="200"
+                  height="128"
                   className="rounded-lg h-32 w-full object-cover"
                 />
                 <img
                   src={`${BASE}images/equipo/fundadores_familia.jpg`}
-                  alt="Founders family"
+                  alt="Felipe Sardi and Elisa Madriñán with their family at the La Palma & El Tucán coffee farm"
                   loading="lazy"
+                  width="200"
+                  height="128"
                   className="rounded-lg h-32 w-full object-cover"
                 />
               </div>

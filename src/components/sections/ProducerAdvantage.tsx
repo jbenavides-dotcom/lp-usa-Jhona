@@ -75,8 +75,10 @@ export function ProducerAdvantage() {
             {/* Main image */}
             <img
               src={`${BASE}images/tostadora/stronghold_s8x_frontal_clean.jpg`}
-              alt="Stronghold S8X roaster at La Palma & El Tucán"
+              alt="Stronghold S8X coffee roaster at La Palma & El Tucán farm in Zipacón, Colombia"
               loading="lazy"
+              width="600"
+              height="384"
               className="rounded-xl w-full shadow-lg object-cover h-96"
             />
 
@@ -84,14 +86,18 @@ export function ProducerAdvantage() {
             <div className="grid grid-cols-2 gap-3 mt-3">
               <img
                 src={`${BASE}images/proceso/proceso_04_secado_natural.jpg`}
-                alt="Coffee drying on African raised beds"
+                alt="Coffee beans drying on African raised beds at La Palma & El Tucán farm in Zipacón, Colombia"
                 loading="lazy"
+                width="300"
+                height="160"
                 className="rounded-lg h-40 object-cover w-full"
               />
               <img
                 src={`${BASE}images/proceso/proceso_03_cereza_madura.jpg`}
-                alt="Ripe coffee cherries at La Palma & El Tucán"
+                alt="Ripe red coffee cherries ready for harvest at La Palma & El Tucán"
                 loading="lazy"
+                width="300"
+                height="160"
                 className="rounded-lg h-40 object-cover w-full"
               />
             </div>
