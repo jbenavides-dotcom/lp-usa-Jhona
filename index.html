@@ -10,7 +10,11 @@
       name="description"
       content="Buy Colombian specialty coffee roasted at origin in Zipacón. Geisha, Sidra &amp; rare varietals from our award-winning farm. World Barista Champion 2019. SCA 86-90+. Ships from Miami."
     />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
     <link rel="canonical" href="https://jbenavides-dotcom.github.io/lp-usa-Jhona/" />
+
+    <!-- Preload hero image (LCP) -->
+    <link rel="preload" as="image" href="/lp-usa-Jhona/images/hero/hero-lifestyle.png" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -69,85 +73,83 @@
       }
     </script>
 
-    <!-- Schema.org: Products -->
+    <!-- Schema.org: Products (@graph format) -->
     <script type="application/ld+json">
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "LEGENDARY Geisha",
-          "description": "Bursting with ripe citrus, exotic stone fruits, and jasmine perfume. Lactic Process. SCA 90+.",
-          "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/legendary-geisha-bag.png",
-          "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": "85",
-            "availability": "https://schema.org/InStock",
-            "url": "https://lapalmayeltucan.com/collections/all"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Product",
+            "name": "LEGENDARY Geisha — Colombian Specialty Coffee",
+            "description": "Bursting with ripe citrus, exotic stone fruits, and jasmine perfume. Lactic Process. SCA 90+. Roasted at origin in Zipacón, Colombia.",
+            "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/legendary-geisha-bag.png",
+            "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "85",
+              "availability": "https://schema.org/InStock",
+              "url": "https://lapalmayeltucan.com/collections/all"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "GEISHA Single Origin — Colombian Specialty Coffee",
+            "description": "Blood orange, night-blooming jasmine, and crystallized honey. Bio-Washed Process. SCA 88. Roasted at origin in Zipacón, Colombia.",
+            "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/geisha-bag.png",
+            "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "65",
+              "availability": "https://schema.org/InStock",
+              "url": "https://lapalmayeltucan.com/collections/all"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "SIDRA Single Origin — Colombian Specialty Coffee",
+            "description": "Ripe strawberry, raspberry compote, and raw cane sweetness. pH Clarity Process. SCA 89. Roasted at origin in Zipacón, Colombia.",
+            "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/sidra-label.png",
+            "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "55",
+              "availability": "https://schema.org/InStock",
+              "url": "https://lapalmayeltucan.com/collections/all"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "PALMA Blend — Colombian Specialty Coffee",
+            "description": "Caramel, Milk Chocolate, Roasted Almonds, Brown Sugar. Honey Process. SCA 86. Roasted at origin in Zipacón, Colombia.",
+            "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/palma-blend-bag.png",
+            "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "42",
+              "availability": "https://schema.org/InStock",
+              "url": "https://lapalmayeltucan.com/collections/all"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "TUCÁN Blend — Colombian Specialty Coffee",
+            "description": "Strawberry, Passion Fruit, Tangerine, Cocoa Nibs. Natural Process. SCA 87. Roasted at origin in Zipacón, Colombia.",
+            "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/tucan-blend-bag.png",
+            "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "45",
+              "availability": "https://schema.org/InStock",
+              "url": "https://lapalmayeltucan.com/collections/all"
+            }
           }
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "GEISHA Single Origin",
-          "description": "Blood orange, night-blooming jasmine, and crystallized honey. Bio-Washed Process. SCA 88.",
-          "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/geisha-bag.png",
-          "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": "65",
-            "availability": "https://schema.org/InStock",
-            "url": "https://lapalmayeltucan.com/collections/all"
-          }
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "SIDRA Single Origin",
-          "description": "Ripe strawberry, raspberry compote, and raw cane sweetness. pH Clarity Process. SCA 89.",
-          "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/sidra-label.png",
-          "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": "55",
-            "availability": "https://schema.org/InStock",
-            "url": "https://lapalmayeltucan.com/collections/all"
-          }
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "PALMA Blend",
-          "description": "Caramel, Milk Chocolate, Roasted Almonds, Brown Sugar. Honey Process. SCA 86.",
-          "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/palma-blend-bag.png",
-          "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": "42",
-            "availability": "https://schema.org/InStock",
-            "url": "https://lapalmayeltucan.com/collections/all"
-          }
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "TUCÁN Blend",
-          "description": "Strawberry, Passion Fruit, Tangerine, Cocoa Nibs. Natural Process. SCA 87.",
-          "image": "https://jbenavides-dotcom.github.io/lp-usa-Jhona/images/productos/tucan-blend-bag.png",
-          "brand": { "@type": "Brand", "name": "La Palma & El Tucán" },
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "USD",
-            "price": "45",
-            "availability": "https://schema.org/InStock",
-            "url": "https://lapalmayeltucan.com/collections/all"
-          }
-        }
-      ]
+        ]
+      }
     </script>
   </head>
   <body>

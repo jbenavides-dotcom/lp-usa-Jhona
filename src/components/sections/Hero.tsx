@@ -38,7 +38,7 @@ export function Hero() {
 
         {/* 3. Headline */}
         <h1 className="font-display text-5xl md:text-7xl font-bold leading-tight max-w-4xl">
-          <span className="text-white">Specialty Coffee</span>
+          <span className="text-white">Colombian Specialty Coffee</span>
           <br />
           <span className="text-cream">From Our Farm to Your Cup</span>
         </h1>

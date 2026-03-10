@@ -24,7 +24,7 @@ export function ProductCard({ product }: ProductCardProps) {
       <div className={`relative ${imageBg} flex items-center justify-center h-96 overflow-hidden group`}>
         <img
           src={`${BASE}${product.image}`}
-          alt={product.name}
+          alt={`${product.name} — ${product.variety} ${product.process} Colombian Specialty Coffee by La Palma & El Tucán`}
           className="h-full w-full object-cover scale-110 transition-transform duration-500 group-hover:scale-125"
           loading="lazy"
         />
