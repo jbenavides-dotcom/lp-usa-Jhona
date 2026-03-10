@@ -82,8 +82,8 @@ export function ProducerAdvantage() {
             {/* Two smaller images below */}
             <div className="grid grid-cols-2 gap-3 mt-3">
               <img
-                src={`${BASE}images/equipo/equipo_felipe_beneficio.jpg`}
-                alt="Felipe and the team at the beneficio"
+                src={`${BASE}images/proceso/proceso_04_secado_natural.jpg`}
+                alt="Coffee drying on African raised beds"
                 className="rounded-lg h-40 object-cover w-full"
               />
               <img
