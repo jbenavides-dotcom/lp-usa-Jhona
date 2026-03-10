@@ -74,7 +74,7 @@ export function ProducerAdvantage() {
           <ScrollReveal delay={150}>
             {/* Main image */}
             <img
-              src={`${BASE}images/tostadora/stronghold_s8x_frontal.jpg`}
+              src={`${BASE}images/tostadora/stronghold_s8x_frontal_clean.jpg`}
               alt="Stronghold S8X roaster at La Palma & El Tucán"
               className="rounded-xl w-full shadow-lg object-cover"
             />
