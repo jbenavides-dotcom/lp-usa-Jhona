@@ -76,6 +76,7 @@ export function ProducerAdvantage() {
             <img
               src={`${BASE}images/tostadora/stronghold_s8x_frontal_clean.jpg`}
               alt="Stronghold S8X roaster at La Palma & El Tucán"
+              loading="lazy"
               className="rounded-xl w-full shadow-lg object-cover h-96"
             />
 
@@ -84,11 +85,13 @@ export function ProducerAdvantage() {
               <img
                 src={`${BASE}images/proceso/proceso_04_secado_natural.jpg`}
                 alt="Coffee drying on African raised beds"
+                loading="lazy"
                 className="rounded-lg h-40 object-cover w-full"
               />
               <img
                 src={`${BASE}images/proceso/proceso_03_cereza_madura.jpg`}
                 alt="Ripe coffee cherries at La Palma & El Tucán"
+                loading="lazy"
                 className="rounded-lg h-40 object-cover w-full"
               />
             </div>

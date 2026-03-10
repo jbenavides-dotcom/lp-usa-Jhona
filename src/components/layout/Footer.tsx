@@ -83,9 +83,9 @@ export function Footer() {
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>&copy; {currentYear} La Palma &amp; El Tucán. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
+            <a href="https://lapalmayeltucan.com/policies/privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
             <span className="text-gray-700">|</span>
-            <a href="#" className="hover:text-gray-300 transition-colors">Terms of Service</a>
+            <a href="https://lapalmayeltucan.com/policies/terms-of-service" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

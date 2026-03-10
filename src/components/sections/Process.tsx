@@ -33,6 +33,7 @@ export function Process() {
                   <img
                     src={`${BASE}${step.image.replace(/^\//, '')}`}
                     alt={step.title}
+                    loading="lazy"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                   {/* Step number badge */}
@@ -57,6 +58,7 @@ export function Process() {
             <img
               src={`${BASE}images/proceso/proceso_bio_washed.jpg`}
               alt="Bio-Washed coffee processing at La Palma & El Tucán"
+              loading="lazy"
               className="rounded-xl w-full h-64 object-cover"
             />
             <div>

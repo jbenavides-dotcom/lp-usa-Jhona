@@ -21,6 +21,7 @@ export function Story() {
               <img
                 src={`${BASE}images/equipo/fundadores_felipe_elisa.jpg`}
                 alt="Felipe Sardi and Elisa María Madriñán, founders of La Palma & El Tucán"
+                loading="lazy"
                 className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-500"
               />
 
@@ -94,16 +95,19 @@ export function Story() {
                 <img
                   src={`${BASE}images/equipo/equipo_elisa_trabajadoras.jpg`}
                   alt="Team at La Palma & El Tucán"
+                  loading="lazy"
                   className="rounded-lg h-32 w-full object-cover"
                 />
                 <img
                   src={`${BASE}images/equipo/equipo_trabajador_cafe.jpg`}
                   alt="Coffee worker at the farm"
+                  loading="lazy"
                   className="rounded-lg h-32 w-full object-cover"
                 />
                 <img
                   src={`${BASE}images/equipo/fundadores_familia.jpg`}
                   alt="Founders family"
+                  loading="lazy"
                   className="rounded-lg h-32 w-full object-cover"
                 />
               </div>

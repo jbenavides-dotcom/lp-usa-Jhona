@@ -75,6 +75,7 @@ export function Sustainability() {
               <img
                 src={`${BASE}images/sostenibilidad/biodiversidad_ganado.jpg`}
                 alt="Biodiversity at the La Palma & El Tucán farm"
+                loading="lazy"
                 className="mt-6 rounded-xl w-full h-48 object-cover opacity-80"
               />
             </div>
@@ -86,6 +87,7 @@ export function Sustainability() {
               <img
                 src={`${BASE}images/sostenibilidad/finca_vista_panoramica.jpg`}
                 alt="Panoramic view of La Palma & El Tucán farm in Zipacón, Colombia"
+                loading="lazy"
                 className="object-cover w-full h-full min-h-[400px]"
               />
             </div>

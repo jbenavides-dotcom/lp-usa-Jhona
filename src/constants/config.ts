@@ -19,8 +19,8 @@ export const SOCIAL_PROOF = {
 };
 
 export const TRUST_BADGES = [
-  { icon: 'Truck', text: 'Free Shipping $50+', color: 'green' },
-  { icon: 'Clock', text: 'Roasted Fresh to Order', color: 'green' },
+  { icon: 'Award', text: 'World Barista Champion 2019', color: 'green' },
+  { icon: 'Clock', text: 'Roasted at Origin', color: 'green' },
   { icon: 'Award', text: 'SCA Score 86-90+', color: 'green' },
 ];
 

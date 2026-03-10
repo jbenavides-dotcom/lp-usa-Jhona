@@ -1,4 +1,4 @@
-import { Truck, Clock, Award, ChevronDown } from 'lucide-react';
+import { Clock, Award, ChevronDown } from 'lucide-react';
 import { SHOPIFY_COLLECTIONS } from '../../constants/config';
 
 const BASE = import.meta.env.BASE_URL;
@@ -70,13 +70,8 @@ export function Hero() {
         {/* 6. Trust badges */}
         <div className="flex flex-wrap items-center justify-center gap-6 mt-2 text-white/70 text-xs md:text-sm">
           <span className="flex items-center gap-1.5">
-            <Truck size={15} />
-            Ships from Miami
-          </span>
-          <span className="text-white/30">|</span>
-          <span className="flex items-center gap-1.5">
             <Clock size={15} />
-            Roasted Fresh to Order
+            Roasted at Origin in Zipacón, Colombia
           </span>
         </div>
 
